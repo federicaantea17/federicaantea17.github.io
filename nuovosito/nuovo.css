@@ -1,0 +1,142 @@
+*{
+    margin: :0;
+    padding: 0;
+    font-family: sans-serif;
+    background:#42455a;
+    scroll-behavior: smooth;
+    scroll-snap-type:y mandatory
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background:#42455a;
+    overflow-y: scroll;
+
+    
+}
+
+
+.menu ul {
+    display: inline-flex;
+    margin: 30px;
+    font-size: 15px;
+    list-style: none;
+    
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+}
+.menu ul li a:hover{
+    color:palevioletred;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+section h1{
+    font-size: 4rem;
+    margin-top: 100px;
+}
+
+section p{
+    width: 60%;
+    height: 300px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 50px;
+     
+}
+section img{
+    width: 60%;
+    margin-left:700px;
+    margin-top: -315px;
+}
+.button{
+    top: 40px;
+    font-size: 0.8em;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color:#fff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left, palevioletred,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.button span{
+    display: block;
+    padding: 7px 7px;
+    border-radius: 7px;
+    
+}
+.banner{
+    width: 80%;
+    height:70%;
+    top:30%;
+    left: 100px;
+    position:absolute;
+    color:#fff;
+}
+
+.app-text{
+    width: 60%;
+    float: left;
+}
+
+.app-text h1{
+    font-size: 70px;
+    width: 640px;
+    position: relative;
+    margin-left: 10px;
+}
+.app-text h2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-22%,110%);
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 3.3em;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke:1px white; 
+    
+}
+
+
+.picture{
+    width: 100%;
+    float: left;
+    background-color: transparent;
+}
+.picture img{
+    width: 80%;
+    margin-top: -50px;
+    padding-left: 460px;
+    background-color: transparent;
+    
+      
+}
+.presentation{
+    background-color: #fff;
+    width: 50%;
+}
+
