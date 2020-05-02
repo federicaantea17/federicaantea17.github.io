@@ -64,7 +64,7 @@ nav {
 }
 .img-content{
     width: 100%;
-   padding-top: 105%;
+   padding-top: 85%;
   align-content: center;
     
 
@@ -85,7 +85,7 @@ nav {
     
    
     nav {
-    display: flex;
+    display: block;
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
@@ -116,7 +116,7 @@ nav {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.4em;
         
 }
     .menu a:hover{
