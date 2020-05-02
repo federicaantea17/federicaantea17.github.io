@@ -32,6 +32,14 @@ h2{
      font-family: 'Alfa Slab One', cursive;
    
 }
+   p{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: .9em;
+    font-family: 'Jost', sans-serif;
+    line-height: 25px;
+}
 
 nav {
     width: 100%;
@@ -65,14 +73,14 @@ nav {
 }
 .img-content{
     width: 100%;
-   padding-top: 85%;
+   padding-top: 45%;
   justify-content: center;
     
 
     
 }
 .img-content img{
-    width: 100%;
+    width: 102%;
     
     
 }
@@ -109,6 +117,13 @@ nav {
     font-size: 4.5vh;
    font-family: 'Alfa Slab One', cursive;
 }
+        p{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1em;
+    font-family: 'Jost', sans-serif;
+}
     .menu{
     display: flex;
     justify-content: space-around;
@@ -127,15 +142,16 @@ nav {
 .img-content{
     display: flex;
     justify-content: center;
-    padding-top: 50%;
-   
+    padding-top: 5%;
+    width: 375px;
+    height: 30px;
     
     
 }
 .img-content img{
     width: 105%;
     height: 105%; 
-    
+   
 }
    
     .menu li{
