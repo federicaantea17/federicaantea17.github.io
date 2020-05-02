@@ -63,7 +63,7 @@ nav {
     color:#42455a;
 }
 .img-content{
-    width: 110%;
+    width: 100%;
    padding-top: 105%;
   align-content: center;
     
@@ -88,7 +88,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 5vh;
+    min-height: 10vh;
     width: 100%;
     
     background-color:#908090;
@@ -97,14 +97,14 @@ nav {
    h1{
     padding-top: 40%;
     padding-left: 5%;
-    font-size: 5vh;
+    font-size: 5.8vh;
 }
     h2{
     padding-left: 5%;
     
      -webkit-text-fill-color:transparent;
     -webkit-text-stroke:1px white; 
-    font-size: 4vh;
+    font-size: 5.8vh;
     font-family: 'Archivo Black', sans-serif;
 }
     .menu{
