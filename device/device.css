@@ -89,7 +89,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
+    min-height: 7vh;
     width: 100%;
     
     background-color:#908090;
@@ -133,8 +133,8 @@ nav {
     
 }
 .img-content img{
-    width: 80%;
-    height: 80%; 
+    width: 100%;
+    height: 100%; 
     
 }
    
