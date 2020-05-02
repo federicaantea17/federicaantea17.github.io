@@ -127,14 +127,14 @@ nav {
 .img-content{
     display: flex;
     justify-content: center;
-    padding-top: 70%;
+    padding-top: 50%;
    
     
     
 }
 .img-content img{
-    width: 120%;
-    height: 120%; 
+    width: 110%;
+    height: 110%; 
     
 }
    
