@@ -98,7 +98,7 @@ nav {
    h1{
     padding-top: 40%;
     padding-left: 5%;
-    font-size: 12vh;
+    font-size: 4.3vh;
     font-family: 'Candal', sans-serif;
 }
     h2{
@@ -106,7 +106,7 @@ nav {
     
      -webkit-text-fill-color:transparent;
     -webkit-text-stroke:1px white; 
-    font-size: 11vh;
+    font-size: 4.5vh;
    font-family: 'Alfa Slab One', cursive;
 }
     .menu{
